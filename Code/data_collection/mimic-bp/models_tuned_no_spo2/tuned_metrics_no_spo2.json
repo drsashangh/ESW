@@ -1,0 +1,26 @@
+{
+  "SBP": {
+    "MAE": 13.873275278416264,
+    "RMSE": 17.361337440388663
+  },
+  "DBP": {
+    "MAE": 9.029369804904276,
+    "RMSE": 11.52124845783617
+  },
+  "SBP_best_params": {
+    "subsample": 0.8,
+    "reg_alpha": 0,
+    "n_estimators": 400,
+    "max_depth": 5,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.7
+  },
+  "DBP_best_params": {
+    "subsample": 0.6,
+    "reg_alpha": 0.1,
+    "n_estimators": 400,
+    "max_depth": 3,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.7
+  }
+}

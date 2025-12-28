@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual envs (including nested)
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# VS Code
+.vscode/
+
+# Logs & tmp
+*.log
+logs/
+tmp/
+
+# Large datasets and Models
+Code/data_collection/COUGHVID-dataset/
+Code/data_collection/mimic-bp/abp/
+Code/data_collection/mimic-bp/calibration_no_spo2/
+Code/data_collection/mimic-bp/labels/
+Code/data_collection/mimic-bp/ppg/
+Code/data_collection/mimic-bp/resp/
+Code/predictor-conditions/data/raw/
+Code/predictor-conditions/notebooks/data/processed/
+Code/data_collection/synthea/output/csv/
+
+# Ignore nested git directories (submodules packs)
+Code/data_collection/synthea/.git/
+
+# Ignore specific large model folders
+Code/data_collection/ky038_cough_model/models/
+Code/data_collection/mimic-bp/models_rt/
+Code/data_collection/mimic-bp/models_ensemble/
+
+# Large Binary/Model Extensions
+*.pkl
+*.bin
+*.onnx
+*.tflite
+*.npy
+*.joblib
+*.so
+*.so.*
+
+# Audio/media
+*.wav
+*.mp3
+*.flac
+
+# Large Data Extensions
+*.csv
+*.tsv
+*.jsonl
+*.h5
+*.ckpt
+*.pt
+*.tar.gz
+*.zip
+*.7z
+*.bz2
+*.xz
+*.parquet
+*.feather
+*.orc
+*.avro
+
+# Local environment files
+bp_monitor/.env
+.env
